@@ -14,7 +14,7 @@ sudo apt install apt-transport-https curl gnupg;                                
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -; # 
 echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list;     # 
 
-sudo apt-get install brave-browser gnome-sound-recorder kazam partitionmanager timeshift filelight libreoffice okular dragonplayer elisa gthumb snapd git clamtk clamav konsole ark stacer moun transmission; # apt packages installation
+sudo apt-get install qapt-deb-installer brave-browser gnome-sound-recorder kazam partitionmanager timeshift filelight libreoffice okular dragonplayer elisa gthumb snapd git clamtk clamav konsole ark stacer moun transmission; # apt packages installation
 
 sudo snap install foliate;         #install snap packages
 sudo snap install mailspring;      #
